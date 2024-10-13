@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: DimondPricePrediction
+Version: 0.0.1
+Summary: A package for diamond price prediction
+Author: Ajay Chaudhary
+Author-email: ajaych2822@gmail.com
+Requires-Python: >=3.6
+License-File: licence
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy

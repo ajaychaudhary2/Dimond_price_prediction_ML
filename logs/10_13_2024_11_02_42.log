@@ -1,0 +1,6 @@
+[2024-10-13 11:02:44,101] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-10-13 11:02:44,137] 97 werkzeug - INFO -  * Debugger PIN: 105-879-933
+[2024-10-13 11:02:46,567] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 11:02:46] "GET / HTTP/1.1" 200 -
+[2024-10-13 11:02:59,024] 90 root - INFO - Dataframe gathered
+[2024-10-13 11:02:59,199] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 11:02:59] "POST / HTTP/1.1" 200 -
+[2024-10-13 11:03:14,725] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 11:03:14] "GET / HTTP/1.1" 200 -

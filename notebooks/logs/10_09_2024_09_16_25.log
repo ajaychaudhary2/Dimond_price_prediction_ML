@@ -1,0 +1,3 @@
+[2024-10-09 09:16:25,786] 23 root - INFO - Logging is set up and ready!
+[2024-10-09 12:30:51,969] 29 root - INFO - data ingestion started
+[2024-10-09 12:30:51,972] 59 root - INFO - Exception occur durin data ingestion  stage

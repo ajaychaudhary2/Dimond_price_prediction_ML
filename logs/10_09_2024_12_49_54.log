@@ -1,0 +1,7 @@
+[2024-10-09 12:49:56,001] 29 root - INFO - data ingestion started
+[2024-10-09 12:49:56,152] 32 root - INFO - I have read the data from data set
+[2024-10-09 12:49:57,254] 36 root - INFO - succesfully save the raw data in artifacts folder
+[2024-10-09 12:49:57,255] 44 root - INFO - here I am perfom  train test split
+[2024-10-09 12:49:57,280] 46 root - INFO - train test split   completed
+[2024-10-09 12:49:59,376] 51 root - INFO - succesfully save the  train and test data in afrifact folder
+[2024-10-09 12:49:59,376] 54 root - INFO - data ingestion part completed

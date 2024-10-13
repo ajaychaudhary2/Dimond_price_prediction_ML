@@ -1,0 +1,25 @@
+[2024-10-12 08:35:57,014] 32 root - INFO - data ingestion started
+[2024-10-12 08:35:57,190] 35 root - INFO - I have read the data from data set
+[2024-10-12 08:35:59,000] 39 root - INFO - succesfully save the raw data in artifacts folder
+[2024-10-12 08:35:59,000] 47 root - INFO - here I am perfom  train test split
+[2024-10-12 08:35:59,237] 49 root - INFO - train test split   completed
+[2024-10-12 08:36:01,273] 54 root - INFO - succesfully save the  train and test data in afrifact folder
+[2024-10-12 08:36:01,273] 57 root - INFO - data ingestion part completed
+[2024-10-12 08:36:01,868] 117 root - INFO - read traina nd test  data completed
+[2024-10-12 08:36:01,876] 118 root - INFO - Train dataframe head :
+   id  carat        cut color clarity  depth  table     x     y     z  price
+0   0   1.52    Premium     F     VS2   62.2   58.0  7.27  7.33  4.55  13619
+1   1   2.03  Very Good     J     SI2   62.0   58.0  8.06  8.12  5.05  13387
+2   2   0.70      Ideal     G     VS1   61.2   57.0  5.69  5.73  3.50   2772
+3   3   0.32      Ideal     G     VS1   61.6   56.0  4.38  4.41  2.71    666
+4   4   1.70    Premium     G     VS2   62.6   59.0  7.65  7.61  4.77  14453
+[2024-10-12 08:36:01,880] 119 root - INFO - Train dataframe head :
+   id  carat        cut color clarity  depth  table     x     y     z  price
+0   0   1.52    Premium     F     VS2   62.2   58.0  7.27  7.33  4.55  13619
+1   1   2.03  Very Good     J     SI2   62.0   58.0  8.06  8.12  5.05  13387
+2   2   0.70      Ideal     G     VS1   61.2   57.0  5.69  5.73  3.50   2772
+3   3   0.32      Ideal     G     VS1   61.6   56.0  4.38  4.41  2.71    666
+4   4   1.70    Premium     G     VS2   62.6   59.0  7.65  7.61  4.77  14453
+[2024-10-12 08:36:01,880] 38 root - INFO - Data transformation initaited
+[2024-10-12 08:36:01,881] 52 root - INFO - Pipeline Initiated
+[2024-10-12 08:36:01,896] 174 root - INFO - Exception occur during data transformation  stage

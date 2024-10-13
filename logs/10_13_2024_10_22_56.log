@@ -1,0 +1,23 @@
+[2024-10-13 10:23:01,569] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-10-13 10:23:01,570] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-10-13 10:23:06,520] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 10:23:06] "GET / HTTP/1.1" 200 -
+[2024-10-13 10:23:06,858] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 10:23:06] "GET / HTTP/1.1" 200 -
+[2024-10-13 10:23:09,134] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 10:23:09] "GET / HTTP/1.1" 200 -
+[2024-10-13 10:23:14,212] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 10:23:14] "[33mGET /predict HTTP/1.1[0m" 404 -
+[2024-10-13 10:23:49,650] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 10:23:49] "GET /prediction HTTP/1.1" 200 -
+[2024-10-13 10:29:18,514] 90 root - INFO - Dataframe gathered
+[2024-10-13 10:29:18,514] 838 app - ERROR - Exception on /prediction [POST]
+Traceback (most recent call last):
+  File "E:\Data_Science _master\ML\Diamonda_prediction\env\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Data_Science _master\ML\Diamonda_prediction\env\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Data_Science _master\ML\Diamonda_prediction\env\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Data_Science _master\ML\Diamonda_prediction\env\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 45, in predict_datapoint
+    predict_pipeline = predictpipeline()
+TypeError: predict() missing 1 required positional argument: 'features'
+[2024-10-13 10:29:18,546] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 10:29:18] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
