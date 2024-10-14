@@ -1,0 +1,27 @@
+[2024-10-13 13:12:36,375] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-10-13 13:12:36,510] 97 werkzeug - INFO -  * Debugger PIN: 105-879-933
+[2024-10-13 13:12:36,604] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 13:12:36] "GET / HTTP/1.1" 200 -
+[2024-10-13 13:12:55,491] 90 root - INFO - Dataframe gathered
+[2024-10-13 13:12:56,101] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 13:12:56] "POST / HTTP/1.1" 200 -
+[2024-10-13 13:13:00,842] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 13:13:00] "GET / HTTP/1.1" 200 -
+[2024-10-13 16:32:45,847] 90 root - INFO - Dataframe gathered
+[2024-10-13 16:32:45,862] 90 root - INFO - Dataframe gathered
+[2024-10-13 16:32:46,014] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 16:32:46] "POST / HTTP/1.1" 200 -
+[2024-10-13 16:32:46,015] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 16:32:46] "POST / HTTP/1.1" 200 -
+[2024-10-13 16:32:49,222] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 16:32:49] "GET / HTTP/1.1" 200 -
+[2024-10-13 16:33:07,518] 90 root - INFO - Dataframe gathered
+[2024-10-13 16:33:07,539] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 16:33:07] "POST / HTTP/1.1" 200 -
+[2024-10-13 16:33:12,478] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 16:33:12] "GET / HTTP/1.1" 200 -
+[2024-10-13 16:33:34,535] 90 root - INFO - Dataframe gathered
+[2024-10-13 16:33:34,556] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 16:33:34] "POST / HTTP/1.1" 200 -
+[2024-10-13 20:44:10,912] 90 root - INFO - Dataframe gathered
+[2024-10-13 20:44:10,972] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 20:44:10] "POST / HTTP/1.1" 200 -
+[2024-10-13 20:44:15,078] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 20:44:15] "GET / HTTP/1.1" 200 -
+[2024-10-13 20:44:34,772] 90 root - INFO - Dataframe gathered
+[2024-10-13 20:44:34,791] 97 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2024 20:44:34] "POST / HTTP/1.1" 200 -
+[2024-10-14 09:16:24,560] 90 root - INFO - Dataframe gathered
+[2024-10-14 09:16:24,607] 97 werkzeug - INFO - 127.0.0.1 - - [14/Oct/2024 09:16:24] "POST / HTTP/1.1" 200 -
+[2024-10-14 09:16:25,898] 97 werkzeug - INFO - 127.0.0.1 - - [14/Oct/2024 09:16:25] "GET / HTTP/1.1" 200 -
+[2024-10-14 09:16:45,109] 90 root - INFO - Dataframe gathered
+[2024-10-14 09:16:45,116] 97 werkzeug - INFO - 127.0.0.1 - - [14/Oct/2024 09:16:45] "POST / HTTP/1.1" 200 -
+[2024-10-14 09:16:51,361] 97 werkzeug - INFO - 127.0.0.1 - - [14/Oct/2024 09:16:51] "GET / HTTP/1.1" 200 -

@@ -1,0 +1,6 @@
+name: "Build and push imgs to  ECR"
+
+on:
+  push:
+    branches:
+      - main
