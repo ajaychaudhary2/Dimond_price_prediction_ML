@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Data_Science%20_master/ML/Diamonda_prediction/mlruns/0/8e5b577807c74f9cbc79defb31d3e2df/artifacts
+end_time: 1730781535145
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8e5b577807c74f9cbc79defb31d3e2df
+run_name: worried-bat-665
+run_uuid: 8e5b577807c74f9cbc79defb31d3e2df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730781519534
+status: 3
+tags: []
+user_id: '91740'

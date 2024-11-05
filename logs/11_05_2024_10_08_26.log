@@ -1,0 +1,42 @@
+[2024-11-05 10:08:30,120] 32 root - INFO - data ingestion started
+[2024-11-05 10:08:30,293] 35 root - INFO - I have read the data from data set
+[2024-11-05 10:08:31,447] 39 root - INFO - succesfully save the raw data in artifacts folder
+[2024-11-05 10:08:31,448] 47 root - INFO - here I am perfom  train test split
+[2024-11-05 10:08:31,477] 49 root - INFO - train test split   completed
+[2024-11-05 10:08:33,829] 54 root - INFO - succesfully save the  train and test data in afrifact folder
+[2024-11-05 10:08:33,829] 57 root - INFO - data ingestion part completed
+[2024-11-05 10:08:34,284] 72 root - INFO - Read train and test data completed
+[2024-11-05 10:08:34,299] 73 root - INFO - Train DataFrame head:
+   id  carat        cut color clarity  depth  table     x     y     z  price
+0   0   1.52    Premium     F     VS2   62.2   58.0  7.27  7.33  4.55  13619
+1   1   2.03  Very Good     J     SI2   62.0   58.0  8.06  8.12        13387
+2   2   0.70      Ideal     G     VS1   61.2   57.0  5.69  5.73   3.5   2772
+3   3   0.32      Ideal     G     VS1   61.6   56.0  4.38  4.41  2.71    666
+4   4   1.70    Premium     G     VS2   62.6   59.0  7.65  7.61  4.77  14453
+[2024-11-05 10:08:34,320] 74 root - INFO - Test DataFrame head:
+   id  carat        cut color clarity  depth  table     x     y     z  price
+0   0   1.52    Premium     F     VS2   62.2   58.0  7.27  7.33  4.55  13619
+1   1   2.03  Very Good     J     SI2   62.0   58.0  8.06  8.12        13387
+2   2   0.70      Ideal     G     VS1   61.2   57.0  5.69  5.73   3.5   2772
+3   3   0.32      Ideal     G     VS1   61.6   56.0  4.38  4.41  2.71    666
+4   4   1.70    Premium     G     VS2   62.6   59.0  7.65  7.61  4.77  14453
+[2024-11-05 10:08:34,322] 75 root - INFO - Data types:
+id           int64
+carat      float64
+cut         object
+color       object
+clarity     object
+depth      float64
+table      float64
+x          float64
+y          float64
+z           object
+price        int64
+dtype: object
+[2024-11-05 10:08:34,578] 24 root - INFO - Data transformation initiated
+[2024-11-05 10:08:34,578] 35 root - INFO - Pipeline initiated
+[2024-11-05 10:08:35,569] 103 root - INFO - Applying preprocessor on train and test datasets
+[2024-11-05 10:08:35,743] 111 root - INFO - Preprocessor object saved successfully
+[2024-11-05 10:08:35,767] 26 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-11-05 10:08:37,560] 44 root - INFO - Model Report : {'LinearRegression': 0.9367194033023357, 'Lasso': 0.9367049249207742, 'Ridge': 0.9367193985524875, 'Elasticnet': 0.8585209514415748}
+[2024-11-05 10:08:37,561] 57 root - INFO - Best Model Found , Model Name : LinearRegression , R2 Score : 0.9367194033023357

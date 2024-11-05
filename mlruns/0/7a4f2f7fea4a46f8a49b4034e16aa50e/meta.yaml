@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Data_Science%20_master/ML/Diamonda_prediction/mlruns/0/7a4f2f7fea4a46f8a49b4034e16aa50e/artifacts
+end_time: 1730781632384
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a4f2f7fea4a46f8a49b4034e16aa50e
+run_name: dapper-bass-243
+run_uuid: 7a4f2f7fea4a46f8a49b4034e16aa50e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730781625483
+status: 3
+tags: []
+user_id: '91740'
